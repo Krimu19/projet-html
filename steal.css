@@ -16,4 +16,49 @@ body {
     margin: 0;
 }
 
+/* Style pour les trois sections de contenu */
+.Design, .conception, .paysage {
+    display: flex;
+    justify-content: space-between;   /* Espace entre les blocs */
+    align-items: flex-start;         /* Aligne les blocs en haut */
+    gap: 20px;                      /* Espace entre les colonnes */
+    padding: 20px;
+}
 
+.Designcontent, .conceptioncontent, .paysagecontent {
+    display: flex;              /* Crée ou Active flexbox pour chaque bloc */
+    flex-direction: column;    /* Met les éléments en colonne */
+    align-items: center;      /* Centre horizontalement */
+    justify-content: center; /* Centre verticalement si tu donnes une hauteur */
+    text-align: center;     /* Centre le texte à l'intérieur */
+    background: #fff;
+    padding: 20px;
+    width: 30%;         /* Largeur fixe pour chaque bloc */
+}
+
+.Designcontent h3, .conceptioncontent h3, .paysagecontent h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Designcontent p, .conceptioncontent p, .paysagecontent p {
+    margin: 0 0 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Style pour les liens "En savoir plus" dans chaque bloc */
+.Designcontent a, .conceptioncontent a, .paysagecontent a {
+    display: inline-block;       /* permet de traiter le lien comme un bloc pour appliquer les styles */
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;    /* supprime le soulignement */
+    border-radius: 6px;
+    transition: background 0.3s;    /* ajoute une transition pour l'effet de survol */
+}
+
+.Designcontent a:hover, .conceptioncontent a:hover, .paysagecontent a:hover {
+    background: #111;          /* change la couleur de fond au survol */
+}
