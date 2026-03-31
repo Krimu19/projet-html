@@ -1,0 +1,19 @@
+.hero{
+    background-image: url("asset-monochrome/bg-image-hero.png"); /* met l'image en fond */
+    background-size: cover;            /* remplit toute la section */
+    background-position: center;              /* centre l'image */
+    height: 500px;                                /* hauteur de la section */
+    display: flex;                                   /* active flexbox */
+    align-items: center;                                /* centre verticalement */
+    color: white;                                        /* texte en blanc */
+}
+
+.hero-content{
+    max-width: 600px;       /* limite la largeur du texte */
+    margin-left: 80px;    /* espace à gauche */
+}
+body {
+    margin: 0;
+}
+
+
