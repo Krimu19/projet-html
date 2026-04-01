@@ -15,5 +15,39 @@
 body {
     margin: 0;
 }
+.clients{
+    background-image: url("asset-monochrome/bg-image-2.png"); 
+    background-size: cover;            
+    background-position: center;              
+    height: 500px;                                
+    display: flex;                                   
+    align-items: center;                                
+    color: white
+}
+.clientscontent{
+    max-width: 600px;       
+    margin-left: 80px; 
+}
+.footercontent{
+    background-color: black;
+    height: 130px;                                
+    display: flex;                                   
+    align-items: center;                                
+    color: white ;
+    padding: 0%;
+}
 
+#conteneur,#cconteneur,#conteneura{
+     text-decoration:none;
+     color: rgb(0, 0, 0);
+     border: solid;
+     background-color: black;
+     color: white;
+     border-radius: 0%;
+     border-width: medium;
+}
+.lumsub{
+    text-decoration: none;
+    color: white;
+}
 
