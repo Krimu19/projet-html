@@ -1,15 +1,16 @@
-.hero{
-    background-image: url("asset-monochrome/bg-image-hero.png"); /* met l'image en fond */
-    background-size: cover;            /* remplit toute la section */
-    background-position: center;              /* centre l'image */
-    height: 500px;                                /* hauteur de la section */
-    display: flex;                                   /* active flexbox */
-    align-items: center;                                /* centre verticalement */
-    color: white;                                        /* texte en blanc */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik, sans-serif;
 }
 header{
-    padding: 30px 16px 10px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 30px 16px 10px;
 }
+
 .bntnav{
     display: flex;
     justify-content: flex-end;
@@ -20,15 +21,148 @@ header{
     color: black;
     text-decoration: none;
 }
-
+.hero{
+    background-image: url("asset-monochrome/bg-image-hero.png"); /* met l'image en fond */
+    background-size: cover;            /* remplit toute la section */
+    background-position: center;              /* centre l'image */
+    height: 500px;                                /* hauteur de la section */
+    display: flex;                                   /* active flexbox */
+    align-items: center;                                /* centre verticalement */
+    color: white;                                        /* texte en blanc */
+}
 .hero-content{
     max-width: 600px;       /* limite la largeur du texte */
     margin-left: 80px;    /* espace à gauche */
 }
-.less-content{
-    margin-left: 16px;
+.less-content {
+    margin: 16px 0px 0px 16px;
+    padding: 16px;
 }
-body {
+.less-content p {
+    margin-top: 16px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 0; 
+}
+.container p {
+    font-size: 16px;
+    color: #666;
     margin: 0;
 }
+.container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: auto; 
+}
+
+.container a:hover {
+    background-color: #555;
+}
+.Designcontent,.conceptioncontent,.paysagecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left; 
+    width: 300px; 
+    height: 300px;
+    padding: 20px;
+    margin: 30px 0px 0px 60px;
+    border: 0px solid ;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    gap: 15px;
+}
+.clients {
+    background-image: url("asset-monochrome/bg-image-2.png"); 
+    background-size: cover;            
+    background-position: center;              
+    height: 500px;                       
+    display: flex;   
+    justify-content: center; 
+    align-items: center;                                    
+    color: white;
+    margin-top: 50px;
+}
+
+.clientscontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px; 
+}
+.logos-row {
+    display: flex;
+    flex-direction: row; /* Aligne les images côte à côte */
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+
+.logos-row img {
+    width: 150px; 
+    height: auto;
+}
+
+.clientscontent a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d8d5d5;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 4px;
+}
+.nos-projet{
+    margin-top: 50px;
+}
+
+.puree-content, .urban-content, .oasis-content, .nature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left; 
+    width: 300px; 
+    height: 400px;
+    padding: 0px;
+    margin: 50px 0px 0px 0px;
+    gap: 20px;
+}
+.puree-content a{
+    text-decoration: none;
+    color: black;
+}
+.puree-content h3, .puree-content p{
+     margin: 0;
+    margin-top: 10px;
+}
+.lum-urban{
+    display: flex;
+    gap: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
