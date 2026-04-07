@@ -129,26 +129,31 @@ header{
 .puree-content, .urban-content, .oasis-content, .nature-content{
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
-    text-align: left; 
+    align-items: flex-start;  
     width: 300px; 
     height: 400px;
     padding: 0px;
     margin: 50px 0px 0px 0px;
-    gap: 20px;
+    gap: 30px;
 }
 .puree-content a{
     text-decoration: none;
     color: black;
 }
 .puree-content h3, .puree-content p{
-     margin: 0;
     margin-top: 10px;
 }
 .lum-urban{
     display: flex;
-    gap: 100px;
+    justify-content: space-between;
+    gap: 30px;
 }
+.oasis-nature{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 
 
 
